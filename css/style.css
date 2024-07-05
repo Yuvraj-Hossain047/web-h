@@ -20,7 +20,7 @@
 }
 .navmenu{
     width: 60%;
-    background: #e203ff;
+    background: #5041529a;
 }
 .navmenu ul{
     height: 100%;
@@ -43,14 +43,34 @@
     transition: .5s;
     color: aqua;
     border-radius: 5px;
+    border: 1px solid greenyellow;
 }
 .navmenu ul a:hover{
     background: #00ff40;
     color: red;
+    border-color: azure;
 }
 .button{
     width: 20%;
     background: #00ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #000;
+    transition: .5s;
+    color: aqua;
+    border-radius: 5px;
+    border: 1px solid greenyellow;
+}
+.button a:hover{
+    background: #00ff40;
+    color: red;
+    border-color: azure;
 }
 .main{
     margin-top: 50px;
