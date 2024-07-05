@@ -73,8 +73,11 @@
     border-color: azure;
 }
 .main{
-    margin-top: 50px;
-    text-align: center;
+    width: 1320px;
+    height: 500px;
+    margin: 0 auto;
+    background: url(/images/bg.jpg) no-repeat center;
+    background-size: cover;
 }
 .blog{
     margin: 30px 15px 0;
